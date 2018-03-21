@@ -2,13 +2,11 @@
 **Based on `CRA`** and still a work in progress in order to improve performance
 
 ## Why do I want this?
-===
 
 ## What do I need to get started
-===
 
 ## What's in the box
-===
+
 - react
 - redux
 - jest
@@ -27,11 +25,10 @@
   - eslint-config-airbnb
 
 ## How do I use this?
-===
+
 You can fin doc [here](URL_to_wiki).
 
 ## Usage
-===
 
 Before all, **DO NOT USE THIS FOR A SPA WITH NO DATA OR NO API** It will be overkill and to much effort for nothing.
 
