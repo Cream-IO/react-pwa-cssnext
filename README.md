@@ -3,6 +3,8 @@
 
 ## How to make it works
 
+Before all, **DO NOT USE THIS FOR A SPA WITH NO DATA OR NO API** It will be overkill and to much effort for nothing.
+
 - `yarn` will install dependencies
 - `yarn start` will run on port `:1111`
 - `yarn build` will create a `build/` folder ready to deploy
@@ -16,6 +18,9 @@ This is an opinionated starter with the following stack :
 - CSS Module with cssnext
 - React router redux : will be removed
 
+
+## Why and How this starter is a PWA ?
+Wip
 
 ## CSS Env
 - Use of [cssnext](http://cssnext.io/usage/)
@@ -88,3 +93,7 @@ export const options = {
 ```
 
 ## How to use axios and axios-redux-middleware
+wip
+
+## Persist data with redux-persist and localForage
+wip
