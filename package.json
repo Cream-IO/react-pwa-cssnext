@@ -5,6 +5,7 @@
   "description": "",
   "author": "David Venin",
   "licence": "MIT",
+  "homepage": "https://davidvenin.github.io/react-pwa-cssnext",
   "devDependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -58,6 +59,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "axios-mock-adapter": "^1.14.1",
+    "gh-pages": "^1.1.0",
     "history": "^4.7.2",
     "localforage": "^1.6.0",
     "prop-types": "^15.6.1",
@@ -75,7 +77,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js && sw-precache --config=sw-precache-config.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
   },
   "jest": {
     "collectCoverageFrom": [
