@@ -1,7 +1,10 @@
 {
-  "name": "react-pwa-offline-cssnext",
+  "name": "react-pwa-cssnext",
   "version": "1.0.0",
   "private": false,
+  "description": "",
+  "author": "David Venin",
+  "licence": "MIT",
   "devDependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",

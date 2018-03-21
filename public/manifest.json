@@ -1,6 +1,6 @@
 {
   "short_name": "React PWA",
-  "name": "React PWA with Offline features and cssnext",
+  "name": "React PWA with offline features and cssnext",
   "icons": [
     {
       "src":"./icon-192x192.png",
@@ -14,7 +14,7 @@
     }
   ],
   "start_url": "/?utm_source=homescreen",
-  "background_color": "#FFF",
+  "background_color": "#fff",
   "theme_color": "#fff",
   "display": "standalone",
   "orientation": "portrait"
