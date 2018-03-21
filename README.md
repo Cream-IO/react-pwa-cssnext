@@ -86,3 +86,5 @@ export const options = {
   }
 }
 ```
+
+## How to use axios and axios-redux-middleware
