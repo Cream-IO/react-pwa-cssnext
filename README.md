@@ -14,6 +14,8 @@ lot of data you need to persist etc... This is still a work in progress, I will 
 
 ## What's in the box
 
+You can see demo [here](https://davidvenin.github.io/react-pwa-cssnext/)
+
 - [React](https://reactjs.org/)
 - [Redux](https://redux.js.org/)
 - [Jest](https://facebook.github.io/jest/)
