@@ -2,8 +2,15 @@
 **Based on `CRA`** and still a work in progress in order to improve performance
 
 ## Why do I want this?
+I wanted to create a boilerplate which permitted me to develop a PWA with the next features of css
+like variables, custom media queries but also a boilerplate with offline storage available on most browsers
+with IndexedDB. This is not a boilerplate you can use for simple application but more like application with
+lot of data you need to persist etc... This is still a work in progress, I will improve documentation as much as I can.
 
 ## What do I need to get started
+- Node LTS : you can use [nvm](https://github.com/creationix/nvm) to handle different versions of node on your computer
+- [yarn](https://yarnpkg.com/en/)
+
 
 ## What's in the box
 
@@ -25,7 +32,8 @@
 
 ## How do I use this?
 
-You can fin doc [here](https://github.com/davidvenin/react-pwa-cssnext/wiki).
+You can find full documentation [here](https://github.com/davidvenin/react-pwa-cssnext/wiki).
+Still need improvments
 
 ## Usage
 
@@ -34,3 +42,9 @@ Before all, **DO NOT USE THIS FOR A SPA WITH NO DATA OR NO API** It will be over
 - `yarn` will install dependencies
 - `yarn start` will run on port `:1111`
 - `yarn build` will create a `build/` folder ready to deploy
+
+## How can you contribute ?
+Feel free to open issues and create PR if you see something wrong, I will appreciate.
+
+### License
+* [MIT](https://github.com/angular/angular.js/blob/master/LICENSE)
