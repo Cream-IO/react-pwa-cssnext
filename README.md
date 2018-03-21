@@ -25,7 +25,7 @@
 
 ## How do I use this?
 
-You can fin doc [here](URL_to_wiki).
+You can fin doc [here](https://github.com/davidvenin/react-pwa-cssnext/wiki).
 
 ## Usage
 
