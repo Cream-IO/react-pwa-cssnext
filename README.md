@@ -15,7 +15,6 @@
 - redux-axios-middleware
 - redux-persist
 - localForage
-
 - postcss
 - css-modules
 - cssnext
@@ -30,7 +29,7 @@ You can fin doc [here](URL_to_wiki).
 
 ## Usage
 
-Before all, **DO NOT USE THIS FOR A SPA WITH NO DATA OR NO API** It will be overkill and to much effort for nothing.
+Before all, **DO NOT USE THIS FOR A SPA WITH NO DATA OR NO API** It will be overkill and too much effort for nothing.
 
 - `yarn` will install dependencies
 - `yarn start` will run on port `:1111`
