@@ -18,7 +18,9 @@
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
     <title>React PWA</title>
+
     <style type="text/css">
       body {
         margin: 0;
@@ -45,24 +47,25 @@
     </noscript>
     <div id="root">
       <div class="App">
-      <div class="App-header">
-        <h2>React PWA</h2>
+        <div class="App-header">
+          <h1>React PWA</h1>
+        </div>
+        <p class="App-intro">
+          Currently starting...
+        </p>
       </div>
-      <p class="App-intro">
-        Currently starting...
-      </p>
     </div>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
-          navigator.serviceWorker.register('%PUBLIC_URL%/service-worker.js').then(function(registration) {
+          navigator.serviceWorker.register('service-worker.js').then(function(registration) {
             // Registration was successful
             console.log('ServiceWorker registration successful with scope: ', registration.scope);
           }, function(err) {
             // registration failed :(
             console.log('ServiceWorker registration failed: ', err);
           }).catch(function(err) {
-            console.log(err)
+            console.log(err);
           });
         });
       } else {
