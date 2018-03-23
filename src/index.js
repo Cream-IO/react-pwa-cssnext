@@ -6,13 +6,12 @@ import { Provider } from 'react-redux';
 import { configure, history } from './configureStore';
 import App from './components/App/App';
 
-const store = configure().configStore;
-const { persistor } = configure();
+const { persistor, configStore } = configure();
 const target = document.querySelector('#root');
 
 render(
   <div>
-    <Provider store={store}>
+    <Provider store={configStore}>
       <PersistGate loading={null} persistor={persistor}>
         <Router history={history}>
           <App />
@@ -28,7 +27,7 @@ if (module.hot) {
     // eslint-disable-next-line
     const NextApp = require('./components/App/App').default;
     render(
-      <Provider store={store}>
+      <Provider store={configStore}>
         <PersistGate loading={null} persistor={persistor}>
           <Router history={history}>
             <NextApp />
@@ -38,5 +37,5 @@ if (module.hot) {
       target,
     );
   });
-  window.store = store;
+  window.store = configStore;
 }

@@ -1,4 +1,3 @@
-/* eslint-disable */
 import axios from 'axios';
 
 export const client = axios.create({
@@ -6,7 +5,7 @@ export const client = axios.create({
   responseType: 'json',
   xsrfCookieName: false,
   headers: {
-    'Accept': 'application/json',
+    Accept: 'application/json',
     'Content-Type': 'application/json',
     'Cache-Control': 'no-cache',
   },
@@ -15,14 +14,10 @@ export const client = axios.create({
 export const options = {
   interceptors: {
     request: [
-      (store, config) => {
-        return config;
-      }
+      (store, config) => config,
     ],
     response: [
-      (store, response) => {
-        return response;
-      }
-    ]
-  }
-}
+      (store, response) => response,
+    ],
+  },
+};
