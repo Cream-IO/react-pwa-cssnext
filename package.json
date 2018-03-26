@@ -55,7 +55,6 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "axios-mock-adapter": "^1.14.1",
     "gh-pages": "^1.1.0",
     "history": "^4.7.2",
     "localforage": "^1.6.0",
