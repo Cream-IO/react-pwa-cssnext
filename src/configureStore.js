@@ -13,7 +13,6 @@ export const history = createHistory();
 const persistConfig = {
   key: 'root',
   storage: localForage,
-  whitelist: ['booking'],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
